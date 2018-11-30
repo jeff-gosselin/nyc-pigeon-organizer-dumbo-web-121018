@@ -1,3 +1,18 @@
+require 'pry'
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  pigeon_list = {}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  data.map do |key, val|
+    pigeons = val.values.flatten.uniq
+    binding.pry
+  end
+  
 end
